@@ -46,7 +46,7 @@ class Main {
 
 
         char op = s[1].charAt(0);
-        if ((a < 0 || a > 10) || (b < 0 || b > 10)) {
+        if ((a < 1 || a > 10) || (b < 0 || b > 10)) {
             throw new Exception("Числа должны быть в диапазоне от 1 до 10");
         }
 
