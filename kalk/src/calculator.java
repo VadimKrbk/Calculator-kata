@@ -6,8 +6,8 @@ class Main {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         System.out.print("Введите выражение: ");
-        String expression = sc.nextLine();
-        String result = calc(expression);
+        String abc = sc.nextLine();
+        String result = calc(abc);
         System.out.println(result);
 
 
