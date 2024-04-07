@@ -23,19 +23,13 @@ class Main {
         if (hasArabic && hasRoman) {
             throw new IllegalArgumentException("Используются одновременно разные системы счисления");
         }
-
-        boolean isArabic = true;
-
-
-        if (!s[0].matches(".") && !s[2].matches(".")){
-            throw new Exception("Введено десятичное число");
-        }
         if (s[0].contains(".") || s[2].contains(".")||s[0].contains(",") || s[2].contains(",")) {
             throw new Exception("Введено десятичное число");
         }
 
         int a;
         int b;
+        boolean isArabic = true;
 
         try {
 
